@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherNow - Real-Time Weather Updates</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+            <h1>WeatherNow</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h2>Get Real-Time Weather Updates</h2>
+            <p>Enter a city to discover accurate and up-to-date weather information.</p>
+            <div class="search-bar">
+                <input type="text" id="city-input" placeholder="Enter city name" aria-label="City Name">
+                <button id="search-btn">Check Weather</button>
+            </div>
+            <div id="error-message" class="error-message"></div>
+        </section>
+
+        <!-- Weather Display Section -->
+        <section class="weather-display" id="weather-display">
+            <!-- Weather data will be displayed here dynamically -->
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer fixed-footer">
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/akhil-bandari-00580a213" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+            <a href=" https://github.com/AkhilBandari28" target="_blank" aria-label="GitHub">GitHub</a>
+        </div>
+        <p>&copy; 2025 WeatherNow. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
