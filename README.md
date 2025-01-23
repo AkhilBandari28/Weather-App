@@ -1,5 +1,7 @@
 # Weather App
 
+# Live Demo: https://akhilbandari28.github.io/Weather-App/
+
 ## Project Description
 
 The Weather App is a web-based application that allows users to search for the current weather conditions of any location by entering its name. The app provides details such as temperature, weather description, and an icon representing the weather conditions.
